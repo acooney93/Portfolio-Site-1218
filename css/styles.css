@@ -11,7 +11,7 @@ body {
 	color: #262824;
 }
 
-svg {
+svg.gradient-bg-svg {
 	position: fixed;
 	height: 100%;
 	z-index: -1;
