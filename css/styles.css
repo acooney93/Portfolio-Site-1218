@@ -6,10 +6,13 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #FDF6F0;
 	font-family: 'Raleway', sans-serif;
+	color: #262824;
 }
 
 svg {
 	position: fixed;
 	height: 100%;
+	z-index: -1;
 }
