@@ -16,3 +16,8 @@ svg.gradient-bg-svg {
 	height: 100%;
 	z-index: -1;
 }
+
+.home-pg {
+	display: grid;
+	grid-template-columns: 1fr;
+}
