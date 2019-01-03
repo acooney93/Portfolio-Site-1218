@@ -17,7 +17,14 @@ svg.gradient-bg-svg {
 	z-index: -1;
 }
 
+svg.logo {
+	fill: #262824;
+	max-height: 150px;
+}
+
 .home-pg {
 	display: grid;
 	grid-template-columns: 1fr;
+	justify-self: center;
+	align-self: center;
 }
