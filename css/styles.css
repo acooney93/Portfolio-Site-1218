@@ -22,9 +22,12 @@ svg.logo {
 	max-height: 150px;
 }
 
-.home-pg {
+.home-container {
 	display: grid;
 	grid-template-columns: 1fr;
+}
+
+.home-content {
 	justify-self: center;
 	align-self: center;
 }
