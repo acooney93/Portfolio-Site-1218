@@ -23,6 +23,7 @@ nav.home-nav ul li:focus {
 nav.home-nav ul li:hover svg,
 nav.home-nav ul li:focus svg {
 	fill: #FDF6F0;
+	transition: 0.3s;
 }
 
 nav.home-nav ul li span { vertical-align: top; }
