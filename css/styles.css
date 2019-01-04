@@ -12,7 +12,7 @@ body {
 	font-size: 1em;
 }
 
-body, p, h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6, p {
 	line-height: 1.75;
 	letter-spacing: 0.03em;
 }
@@ -25,11 +25,19 @@ h5 { font-size: 1.2em; }
 h6 { font-size: 1em; }
 p { font-size: 1em; }
 
-h1.title { margin-top: 60px; }
-
-nav ul {  }
+h1.title {
+	margin-top: 60px;
+	text-align: center;
+}
 
 nav ul li { display: inline-block; }
+
+nav.home-nav ul li {
+	line-height: 1.333;
+	padding: 10px 50px;
+	margin: 30px;
+	border: 3px solid #262824;
+}
 
 .home-container {
 	display: grid;
