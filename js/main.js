@@ -51,9 +51,9 @@ function updateGradient() {
 	var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
 	var color2 = "rgb("+r2+","+g2+","+b2+")";
 
-	$('.gradient-stop-0').css({
+	$('#gradient-stop-0').css({
 		background: "stop-color:rgb("+color1+");stop-opacity:1"});
-	$('.gradient-stop-100').css({
+	$('#gradient-stop-100').css({
 		background: "stop-color:rgb("+color2+");stop-opacity:1"});
 
 	/*$('#gradient-header').css({
