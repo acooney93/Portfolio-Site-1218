@@ -11,6 +11,23 @@ body {
 	color: #262824;
 }
 
+h1.title { margin-top: 60px; }
+
+nav ul {  }
+
+nav ul li { display: inline-block; }
+
+.home-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 100vh;
+}
+
+.home-content {
+	justify-self: center;
+	align-self: center;
+}
+
 svg.gradient-bg-svg {
 	position: fixed;
 	height: 100%;
@@ -19,15 +36,5 @@ svg.gradient-bg-svg {
 
 svg.logo {
 	fill: #262824;
-	max-height: 150px;
-}
-
-.home-container {
-	display: grid;
-	grid-template-columns: 1fr;
-}
-
-.home-content {
-	justify-self: center;
-	align-self: center;
+	max-height: 200px;
 }
