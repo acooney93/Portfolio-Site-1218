@@ -41,3 +41,8 @@ svg.logo {
 	fill: #262824;
 	max-height: 200px;
 }
+
+svg.icon {
+	fill: #262824;
+	max-height: 1em;
+}
