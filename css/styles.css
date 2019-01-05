@@ -101,3 +101,9 @@ svg.icon {
 	fill: #262824;
 	height: 1.15em;
 }
+
+@keyframes icon-bounce {
+	30% {
+		transform: translateY(-3px);
+	}
+}
