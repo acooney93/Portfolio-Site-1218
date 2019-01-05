@@ -5,11 +5,15 @@ body {
 	font-size: 1em;
 }
 
-a, a:active, a:focus, a:hover, a:visited { color: #262824; }
+a, a:active, a:focus, a:hover, a:visited {
+	color: #262824;
+	text-decoration: none;
+}
 
 body, h1, h2, h3, h4, h5, h6, p {
 	line-height: 1.75;
 	letter-spacing: 0.03em;
+	font-weight: 400;
 }
 
 h1 { font-size: 2em; }
@@ -21,3 +25,11 @@ h6 { font-size: 1em; }
 p { font-size: 1em; }
 
 nav ul li { display: inline-block; }
+
+.bold {
+	font-weight: 700;
+	color: rgb(70,226,143);
+	background: linear-gradient(to right, rgb(70,226,143) 0%, rgb(129,232,232) 100%);
+	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+}

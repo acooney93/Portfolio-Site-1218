@@ -52,7 +52,7 @@ nav.home-nav ul li:focus span {
 	display: grid;
 	height: 100vh;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr minmax(40px, auto);
+	grid-template-rows: 1fr minmax(80px, auto);
 }
 
 .home-content {
@@ -70,7 +70,20 @@ nav.home-nav ul li:focus span {
 	justify-self: center;
 	align-self: center;
 	display: grid;
-	grid-template-columns: minmax(auto, 150px) 1fr;
+	grid-template-columns: minmax(auto, 30%) 1fr;
+}
+
+.about-content div {
+	margin: 30px;
+}
+
+.about-content img {
+	border-radius: 50%;
+	max-width: 100%;
+}
+
+.about-content p {
+	margin-bottom: 20px;
 }
 
 .portfolio-container {
