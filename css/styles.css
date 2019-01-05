@@ -10,6 +10,7 @@ nav.home-nav ul li {
 	padding: 10px 50px;
 	margin: 30px;
 	border: 3px solid #262824;
+	border-radius: 50px;
 	background: transparent;
 	overflow: hidden;
 	transition: 0.3s;
@@ -49,8 +50,9 @@ nav.home-nav ul li:focus span {
 
 .home-container {
 	display: grid;
-	grid-template-columns: 1fr;
 	height: 100vh;
+	grid-template-columns: 1fr;
+	grid-template-rows: 10fr 1fr;
 }
 
 .home-content {
@@ -59,11 +61,29 @@ nav.home-nav ul li:focus span {
 }
 
 .down-btn {
-
+	align-self: center;
+	justify-self: center;
 }
 
 .rounded-btn {
-	background-color: blue;
+	display: inline-block;
+	padding: 5px 20px;
+	border-radius: 40px;
+	border: 2px solid;
+}
+
+.rounded-btn svg {
+	position: relative;
+	top: 3px;
+	animation-name: icon-bounce;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.rounded-btn span {
+	position: relative;
+	font-size: 0.7em;
+	vertical-align: middle;
 }
 
 svg.gradient-bg-svg {
