@@ -12,21 +12,21 @@ nav.home-nav ul li {
 	border: 3px solid #262824;
 	background: transparent;
 	overflow: hidden;
-	transition: all 0.2s;
+	transition: 0.3s;
 }
 
 nav.home-nav ul li svg {
 	position: relative;
 	top: 70px;
 	padding-right: 10px;
-	transition: all 0.2s;
+	transition: 0.2s;
 }
 
 nav.home-nav ul li span {
 	vertical-align: top;
 	position: relative;
 	left: -24px;
-	transition: all 0.2s;
+	transition: 0.2s;
 }
 
 nav.home-nav ul li:hover,
@@ -34,14 +34,12 @@ nav.home-nav ul li:focus {
 	border: 3px solid #262824;
 	background: #262824;
 	color: #FDF6F0;
-	transition: all 0.3s;
 }
 
 nav.home-nav ul li:hover svg,
 nav.home-nav ul li:focus svg {
-	fill: #FDF6F0;
-	transition: 0.3s;
 	top: 0;
+	fill: #FDF6F0;
 }
 
 nav.home-nav ul li:hover span,
