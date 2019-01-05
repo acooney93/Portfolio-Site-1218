@@ -58,6 +58,14 @@ nav.home-nav ul li:focus span {
 	align-self: center;
 }
 
+.down-btn {
+
+}
+
+.rounded-btn {
+	background-color: blue;
+}
+
 svg.gradient-bg-svg {
 	position: fixed;
 	height: 100%;
