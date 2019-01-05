@@ -26,15 +26,15 @@
 				<h1 class="title">Digital &bull; Web &bull; Print</h1>
 				<nav class="home-nav">
 					<ul>
-						<a href=""><li>
+						<a href="about"><li>
 							<img class="inject" src="img/icon/about.svg"/>
 							<span>About Me</span>
 						</li></a>
-						<a href=""><li>
+						<a href="portfolio"><li>
 							<img class="inject" src="img/icon/portfolio.svg"/>
 							<span>Portfolio</span>
 						</li></a>
-						<a href=""><li>
+						<a href="contact"><li>
 							<img class="inject" src="img/icon/contact.svg"/>
 							<span>Contact</span>
 						</li></a>
@@ -49,11 +49,37 @@
 			</div>
 		</div>
 
+		<div id="about" class="about-container">
+			<div class="about-content">
+				About Me
+			</div>
+		</div>
+
+		<div id="portfolio" class="portfolio-container">
+			<div class="portfolio-content">
+				portfolio
+			</div>
+		</div>
+
+		<div id="contact" class="contact-container">
+			<div class="contact-content">
+				contact
+			</div>
+		</div>
+
 	</main>
 
 	<!-- Javascript -->
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/svg-injector.min.js"></script>
 	<script src="js/main.js"></script>
+
+	<!--<script>
+		$("#button").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#myDiv").offset().top
+			}, 2000);
+		});
+	</script>-->
 </body>
 </html>

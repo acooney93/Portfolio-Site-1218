@@ -60,6 +60,39 @@ nav.home-nav ul li:focus span {
 	align-self: center;
 }
 
+.about-container {
+	display: grid;
+	height: 100vh;
+	grid-template-columns: 1fr;
+}
+
+.about-content {
+	justify-self: center;
+	align-self: center;
+}
+
+.portfolio-container {
+	display: grid;
+	height: 100vh;
+	grid-template-columns: 1fr;
+}
+
+.portfolio-content {
+	justify-self: center;
+	align-self: center;
+}
+
+.contact-container {
+	display: grid;
+	height: 100vh;
+	grid-template-columns: 1fr;
+}
+
+.contact-content {
+	justify-self: center;
+	align-self: center;
+}
+
 .down-btn {
 	align-self: center;
 	justify-self: center;
