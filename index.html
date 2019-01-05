@@ -26,18 +26,18 @@
 				<h1 class="title">Digital &bull; Web &bull; Print</h1>
 				<nav class="home-nav">
 					<ul>
-						<a href="#about"><li>
+						<li id="about-btn">
 							<img class="inject" src="img/icon/about.svg"/>
 							<span>About Me</span>
-						</li></a>
-						<a href="#portfolio"><li>
+						</li>
+						<li id="portfolio-btn">
 							<img class="inject" src="img/icon/portfolio.svg"/>
 							<span>Portfolio</span>
-						</li></a>
-						<a href="#contact"><li>
+						</li>
+						<li id="contact-btn">
 							<img class="inject" src="img/icon/contact.svg"/>
 							<span>Contact</span>
-						</li></a>
+						</li>
 					</ul>
 				</nav>
 			</div>
@@ -74,12 +74,24 @@
 	<script src="js/svg-injector.min.js"></script>
 	<script src="js/main.js"></script>
 
-	<!--<script>
-		$("#button").click(function() {
+	<script>
+		$("#about-btn").click(function() {
 			$('html, body').animate({
-				scrollTop: $("#myDiv").offset().top
+				scrollTop: $("#about").offset().top
 			}, 2000);
 		});
-	</script>-->
+
+		$("#portfolio-btn").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#portfolio").offset().top
+			}, 2000);
+		});
+
+		$("#contact-btn").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#contact").offset().top
+			}, 2000);
+		});
+	</script>
 </body>
 </html>
