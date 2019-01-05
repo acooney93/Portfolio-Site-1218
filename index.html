@@ -26,26 +26,24 @@
 				<h1 class="title">Digital &bull; Web &bull; Print</h1>
 				<nav class="home-nav">
 					<ul>
-						<li id="about-btn">
+						<li class="about-btn">
 							<img class="inject" src="img/icon/about.svg"/>
 							<span>About Me</span>
 						</li>
-						<li id="portfolio-btn">
+						<li class="portfolio-btn">
 							<img class="inject" src="img/icon/portfolio.svg"/>
 							<span>Portfolio</span>
 						</li>
-						<li id="contact-btn">
+						<li class="contact-btn">
 							<img class="inject" src="img/icon/contact.svg"/>
 							<span>Contact</span>
 						</li>
 					</ul>
 				</nav>
 			</div>
-			<div class="down-btn">
-				<div class="rounded-btn">
-					<img class="inject" src="img/icon/about.svg"/>
-					<span>About Me</span>
-				</div>
+			<div class="down-btn about-btn">
+				<img class="inject" src="img/icon/about.svg"/>
+				<span>About Me</span>
 			</div>
 		</div>
 
@@ -57,13 +55,13 @@
 
 		<div id="portfolio" class="portfolio-container">
 			<div class="portfolio-content">
-				portfolio
+				Portfolio
 			</div>
 		</div>
 
 		<div id="contact" class="contact-container">
 			<div class="contact-content">
-				contact
+				Contact
 			</div>
 		</div>
 
@@ -75,19 +73,19 @@
 	<script src="js/main.js"></script>
 
 	<script>
-		$("#about-btn").click(function() {
+		$(".about-btn").click(function() {
 			$('html, body').animate({
 				scrollTop: $("#about").offset().top
 			}, 2000);
 		});
 
-		$("#portfolio-btn").click(function() {
+		$(".portfolio-btn").click(function() {
 			$('html, body').animate({
 				scrollTop: $("#portfolio").offset().top
 			}, 2000);
 		});
 
-		$("#contact-btn").click(function() {
+		$(".contact-btn").click(function() {
 			$('html, body').animate({
 				scrollTop: $("#contact").offset().top
 			}, 2000);
