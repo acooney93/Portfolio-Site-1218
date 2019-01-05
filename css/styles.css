@@ -119,7 +119,7 @@ nav.home-nav ul li:focus span {
 
 .down-btn svg {
 	position: relative;
-	top: 3px;
+	height: 1em;
 	animation-name: icon-bounce;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
