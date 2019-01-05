@@ -58,6 +58,39 @@ nav.home-nav ul li:focus span {
 	align-self: center;
 }
 
+.about-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 100vh;
+}
+
+.about-content {
+	justify-self: center;
+	align-self: center;
+}
+
+.portfolio-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 100vh;
+}
+
+.portfolio-content {
+	justify-self: center;
+	align-self: center;
+}
+
+.contact-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 100vh;
+}
+
+.contact-content {
+	justify-self: center;
+	align-self: center;
+}
+
 svg.gradient-bg-svg {
 	position: fixed;
 	height: 100%;
