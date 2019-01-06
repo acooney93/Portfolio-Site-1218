@@ -50,8 +50,48 @@ nav.home-nav ul li:focus span {
 
 /* ---------- INTERIOR NAV ---------- */
 
+nav.int-nav {
+	align-self: center;
+	padding: 25px;
+}
+
+nav.int-nav ul li {
+	position: relative;
+	margin: 0 25px;
+	padding: 5px 20px;
+	bottom: 40px;
+	border: 2px solid;
+	border-radius: 5px 20px;
+}
+
+nav.int-nav ul li:first-child {
+	margin: 0 25px 0 0;
+	padding: 0;
+	bottom: 0;
+	border: 0;
+	border-radius: 0;
+}
+
+nav.int-nav ul li svg.icon {
+	position: relative;
+	top: 3px;
+	margin-right: 10px;
+}
+
 nav.int-nav ul li svg.logo {
 	height: 100px;
+}
+
+nav.int-nav ul li:hover,
+nav.int-nav ul li:focus {
+	color: #FDF6F0;
+	border: 2px solid #262824;
+	background: #262824;
+}
+
+nav.int-nav ul li:hover svg,
+nav.int-nav ul li:focus svg {
+	fill: #FDF6F0;
 }
 
 /* ---------- HOME CONTAINER ---------- */
@@ -99,41 +139,6 @@ nav.int-nav ul li svg.logo {
 
 .about-content p {
 	margin-bottom: 20px;
-}
-
-.down-btn, .up-btn {
-	align-self: center;
-	justify-self: center;
-    display: inline-block;
-    padding: 5px 20px;
-    border-radius: 40px;
-    border: 2px solid;
-    transition: 0.3s;
-}
-
-.down-btn svg, .up-btn svg {
-	position: relative;
-	height: 1em;
-	top: 3px;
-	animation-name: icon-bounce;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-}
-
-.down-btn span, .up-btn span {
-	position: relative;
-	font-size: 0.7em;
-	vertical-align: middle;
-}
-
-.down-btn:hover, .up-btn:hover {
-	background-color: #262824;
-	border: 2px solid #262824;
-	color: #FDF6F0;
-}
-
-.down-btn:hover svg, .up-btn:hover svg {
-	fill: #FDF6F0;
 }
 
 svg.gradient-bg-svg {
