@@ -148,6 +148,7 @@ footer .social ul li svg {
 
 footer .copyright p {
 	color: rgba(253, 246, 240, 0.5);
+	font-size: 0.5em;
 }
 
 /* ---------- HOME CONTAINER ---------- */
@@ -156,7 +157,7 @@ footer .copyright p {
 	display: grid;
 	height: 100vh;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr minmax(80px, auto);
+	grid-template-rows: 1fr;
 }
 
 .home-content {
@@ -182,7 +183,7 @@ footer .copyright p {
 }
 
 .about-content div {
-	margin: 50px 50px 50px 0;
+	margin: 0 50px 50px 0;
 }
 
 .about-content img {
@@ -210,8 +211,26 @@ svg.icon {
 	height: 1.15em;
 }
 
+/* ---------- ANNIMATION ---------- */
+
 @keyframes icon-bounce {
 	30% {
 		transform: translateY(-3px);
 	}
 }
+
+/* ---------- RESIZING ---------- */
+
+@media (max-width: 1024px) {
+	
+	nav.int-nav {
+		justify-self: left;
+		width: auto;
+		padding: 25px;
+	}
+	.about-content { width: auto; }
+	.about-content div { margin: 20px 50px 50px 50px; }
+	footer { padding: 25px; }
+
+}
+
