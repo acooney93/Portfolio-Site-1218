@@ -61,7 +61,7 @@ nav.int-nav ul li {
 	padding: 5px 20px;
 	bottom: 40px;
 	border: 2px solid;
-	border-radius: 5px 20px;
+	border-radius: 50px;
 }
 
 nav.int-nav ul li:first-child {
