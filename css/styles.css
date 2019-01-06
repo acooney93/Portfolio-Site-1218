@@ -74,14 +74,14 @@ nav.int-nav ul li svg.logo {
 	display: grid;
 	height: 100vh;
 	grid-template-columns: 1fr;
-	grid-template-rows: minmax(100px, auto) 1fr;
+	grid-template-rows: minmax(150px, auto) 1fr;
 }
 
 .about-content {
 	justify-self: center;
 	align-self: center;
 	display: grid;
-	grid-template-columns: minmax(auto, 200px) 1fr;
+	grid-template-columns: minmax(auto, 300px) 1fr;
 }
 
 .about-content div {
