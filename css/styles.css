@@ -54,7 +54,7 @@ nav.int-nav {
 	align-self: center;
 	justify-self: center;
 	width: 70%;
-	padding: 25px;
+	padding: 25px 0;
 }
 
 nav.int-nav ul li {
@@ -182,8 +182,7 @@ footer .copyright p {
 }
 
 .about-content div {
-	margin: 50px;
-	max-height: 100vh;
+	margin: 50px 50px 50px 0;
 }
 
 .about-content img {
