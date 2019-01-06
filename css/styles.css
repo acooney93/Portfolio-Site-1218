@@ -64,6 +64,7 @@ nav.home-nav ul li:focus span {
 	display: grid;
 	height: 100vh;
 	grid-template-columns: 1fr;
+	grid-template-rows: minmax(80px, auto) 1fr minmax(80px, auto);
 }
 
 .about-content {
@@ -75,6 +76,8 @@ nav.home-nav ul li:focus span {
 
 .about-content div {
 	margin: 30px;
+	justify-self: center;
+	align-self: center;
 }
 
 .about-content img {
@@ -108,16 +111,17 @@ nav.home-nav ul li:focus span {
 	align-self: center;
 }
 
-.down-btn {
+.down-btn, .up-btn {
 	align-self: center;
 	justify-self: center;
     display: inline-block;
     padding: 5px 20px;
     border-radius: 40px;
     border: 2px solid;
+    transition: 0.3s;
 }
 
-.down-btn svg {
+.down-btn svg, .up-btn svg {
 	position: relative;
 	height: 1em;
 	top: 3px;
@@ -126,10 +130,20 @@ nav.home-nav ul li:focus span {
 	animation-iteration-count: infinite;
 }
 
-.down-btn span {
+.down-btn span, .up-btn span {
 	position: relative;
 	font-size: 0.7em;
 	vertical-align: middle;
+}
+
+.down-btn:hover, .up-btn:hover {
+	background-color: #262824;
+	border: 2px solid #262824;
+	color: #FDF6F0;
+}
+
+.down-btn:hover svg, .up-btn:hover svg {
+	fill: #FDF6F0;
 }
 
 svg.gradient-bg-svg {
