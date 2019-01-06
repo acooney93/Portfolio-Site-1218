@@ -183,10 +183,7 @@ footer .copyright p {
 
 .about-content div {
 	margin: 50px;
-	justify-self: center;
-	align-self: center;
 	max-height: 100vh;
-	overflow: scroll-x;
 }
 
 .about-content img {
