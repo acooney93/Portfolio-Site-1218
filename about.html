@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<title>Anna Cooney Design</title>
+	<title>About | Anna Cooney Design | Digital &bull; Web &bull; Print</title>
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,800,800i" rel="stylesheet">
 	<!-- Stylesheets -->
@@ -20,38 +20,29 @@
 
 	<main>
 
-		<div id="home" class="home-container">
-			<div class="home-content">
-				<img class="inject" src="img/logo.svg"/>
-				<h1 class="title">Digital &bull; Web &bull; Print</h1>
-				<nav class="home-nav">
-					<ul>
-						<li class="about-btn">
-							<img class="inject" src="img/icon/about.svg"/>
-							<span>About Me</span>
-						</li>
-						<li class="portfolio-btn">
-							<img class="inject" src="img/icon/portfolio.svg"/>
-							<span>Portfolio</span>
-						</li>
-						<li class="contact-btn">
-							<img class="inject" src="img/icon/contact.svg"/>
-							<span>Contact</span>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<div class="down-btn about-btn">
-				<img class="inject" src="img/icon/arrow-down.svg"/>
-				<span>About Me</span>
-			</div>
+		<div class="int-nav-container">
+			<nav class="int-nav">
+				<ul>
+					<a href="index.html"><li>
+						<img class="inject" src="img/logo.svg"/>
+					</li></a>
+					<a href="about.html"><li>
+						<img class="inject" src="img/icon/about.svg"/>
+						<span>About Me</span>
+					</li></a>
+					<a href="portfolio.html"><li>
+						<img class="inject" src="img/icon/portfolio.svg"/>
+						<span>Portfolio</span>
+					</li></a>
+					<a href="contact.html"><li>
+						<img class="inject" src="img/icon/contact.svg"/>
+						<span>Contact</span>
+					</li><a/>
+				</ul>
+			</nav>
 		</div>
 
-		<div id="about" class="about-container">
-			<div class="up-btn home-btn">
-				<img class="inject" src="img/icon/arrow-down.svg"/>
-				<span>Home</span>
-			</div>
+		<div class="about-container">
 			<div class="about-content">
 				<div>
 					<img src="img/profile.jpg"/>
@@ -65,22 +56,6 @@
 					<p>Please reach out to me for a copy of my most recent resume and portfolio.</p>
 				</div>
 			</div>
-			<div class="down-btn portfolio-btn">
-				<img class="inject" src="img/icon/arrow-down.svg"/>
-				<span>Portfolio</span>
-			</div>
-		</div>
-
-		<div id="portfolio" class="portfolio-container">
-			<div class="portfolio-content">
-				Portfolio
-			</div>
-		</div>
-
-		<div id="contact" class="contact-container">
-			<div class="contact-content">
-				Contact
-			</div>
 		</div>
 
 	</main>
@@ -90,30 +65,5 @@
 	<script src="js/svg-injector.min.js"></script>
 	<script src="js/main.js"></script>
 
-	<script>
-		$(".home-btn").click(function() {
-			$('html, body').animate({
-				scrollTop: $("#home").offset().top
-			}, 2000);
-		});
-
-		$(".about-btn").click(function() {
-			$('html, body').animate({
-				scrollTop: $("#about").offset().top
-			}, 2000);
-		});
-
-		$(".portfolio-btn").click(function() {
-			$('html, body').animate({
-				scrollTop: $("#portfolio").offset().top
-			}, 2000);
-		});
-
-		$(".contact-btn").click(function() {
-			$('html, body').animate({
-				scrollTop: $("#contact").offset().top
-			}, 2000);
-		});
-	</script>
 </body>
 </html>
