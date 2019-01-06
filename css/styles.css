@@ -89,9 +89,16 @@ nav.int-nav ul li:focus {
 	background: #262824;
 }
 
-nav.int-nav ul li:hover svg,
-nav.int-nav ul li:focus svg {
+nav.int-nav ul li:hover svg.icon,
+nav.int-nav ul li:focus svg.icon {
 	fill: #FDF6F0;
+}
+
+nav.int-nav ul li:first-child:hover,
+nav.int-nav ul li:first-child:focus {
+	color: #262824;
+	border: none;
+	background: transparent;
 }
 
 /* ---------- HOME CONTAINER ---------- */
