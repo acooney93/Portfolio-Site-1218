@@ -52,6 +52,8 @@ nav.home-nav ul li:focus span {
 
 nav.int-nav {
 	align-self: center;
+	justify-self: center;
+	width: 70%;
 	padding: 25px;
 }
 
@@ -114,11 +116,12 @@ footer {
 	display: grid;
 	grid-template-columns: minmax(100px, auto) 1fr;
 	grid-template-rows: 1fr;
-	padding: 25px;
+	padding: 25px 15%;
 }
 
 footer svg.logo {
 	fill: #FDF6F0;
+	height: 50px;
 }
 
 footer .footer-nav {
@@ -175,6 +178,7 @@ footer .copyright p {
 	align-self: center;
 	display: grid;
 	grid-template-columns: minmax(auto, 300px) 1fr;
+	width: 70%;
 }
 
 .about-content div {
