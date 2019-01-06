@@ -89,6 +89,11 @@ nav.int-nav ul li:focus {
 	background: #262824;
 }
 
+nav.int-nav ul li:hover span,
+nav.int-nav ul li:focus span {
+	color: #FDF6F0;
+}
+
 nav.int-nav ul li:hover svg.icon,
 nav.int-nav ul li:focus svg.icon {
 	fill: #FDF6F0;
