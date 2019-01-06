@@ -48,6 +48,12 @@ nav.home-nav ul li:focus span {
 	left: 0;
 }
 
+/* ---------- INTERIOR NAV ---------- */
+
+nav.int-nav ul li svg {
+	height: 100px;
+}
+
 .home-container {
 	display: grid;
 	height: 100vh;
