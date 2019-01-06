@@ -50,7 +50,7 @@ nav.home-nav ul li:focus span {
 
 /* ---------- INTERIOR NAV ---------- */
 
-nav.int-nav ul li svg {
+nav.int-nav ul li svg.logo {
 	height: 100px;
 }
 
