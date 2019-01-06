@@ -106,6 +106,40 @@ nav.int-nav ul li:first-child:focus {
 	background: transparent;
 }
 
+/* ---------- FOOTER ---------- */
+
+footer {
+	background-color: #262824;
+	display: grid;
+	grid-template-columns: minmax(100px, auto) 1fr;
+	grid-template-rows: 1fr;
+	padding: 25px;
+}
+
+footer .footer-nav {
+	justify-self: right;
+	display: grid;
+	grid-template-rows: 1fr;
+	text-align: right;
+}
+
+footer .footer-nav ul li a {
+	color: #FDF6F0;
+	padding: 10px;
+}
+
+footer .social ul li {
+	display: inline-block;
+}
+
+footer .social ul li svg {
+	fill: #FDF6F0;
+}
+
+footer .copyright p {
+	color: rgba(253, 246, 240, 0.5);
+}
+
 /* ---------- HOME CONTAINER ---------- */
 
 .home-container {
@@ -126,7 +160,7 @@ nav.int-nav ul li:first-child:focus {
 	display: grid;
 	height: 100vh;
 	grid-template-columns: 1fr;
-	grid-template-rows: minmax(150px, auto) 1fr;
+	grid-template-rows: minmax(150px, auto) 1fr auto;
 }
 
 .about-content {
