@@ -75,9 +75,11 @@ nav.home-nav ul li:focus span {
 }
 
 .about-content div {
-	margin: 30px;
+	margin: 50px;
 	justify-self: center;
 	align-self: center;
+	max-height: 100vh;
+	overflow: scroll-x;
 }
 
 .about-content img {
