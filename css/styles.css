@@ -234,3 +234,9 @@ svg.icon {
 
 }
 
+@media (max-width: 768px) {
+
+	svg.gradient-bg-svg { left: -600px; }
+
+}
+
