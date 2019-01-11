@@ -195,11 +195,25 @@ footer .copyright p {
 	margin-bottom: 20px;
 }
 
-svg.gradient-bg-svg {
+/* ---------- BACKGROUND GRADIENT ---------- */
+
+.bg-gradient {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgb(255,122,104);
+	-webkit-clip-path: polygon(0% 0%, 80% 0%, 40% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 80% 0%, 40% 100%, 0% 100%);
+	z-index: -1;
+}
+
+/* ---------- SVG ---------- */
+
+/*svg.gradient-bg-svg {
 	position: fixed;
 	height: 100%;
 	z-index: -1;
-}
+}*/
 
 svg.logo {
 	fill: #262824;
