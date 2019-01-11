@@ -228,8 +228,10 @@ svg.icon {
 		width: auto;
 		padding: 25px;
 	}
+	nav.int-nav ul li:first-child { margin: 0 15px 0 0; }
+	nav.int-nav ul li { margin: 0 15px; }
 	.about-content { width: auto; }
-	.about-content div { margin: 20px 50px 50px 50px; }
+	.about-content div { margin: 20px 50px; }
 	footer { padding: 25px; }
 
 }
@@ -237,6 +239,8 @@ svg.icon {
 @media (max-width: 768px) {
 
 	svg.gradient-bg-svg { left: -400px; }
-
+	nav.int-nav ul li:first-child { margin: 0 5px 0 0; }
+	nav.int-nav ul li { margin: 0 5px; }
+	.about-content div { margin: 20px; }
 }
 
