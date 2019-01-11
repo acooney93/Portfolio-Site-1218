@@ -165,6 +165,11 @@ footer .copyright p {
 	align-self: center;
 }
 
+.home-footer {
+	text-align: center;
+	font-size: 0.8em;
+}
+
 /* ---------- ABOUT CONTAINER ---------- */
 
 .about-container {
