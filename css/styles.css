@@ -187,6 +187,10 @@ footer .copyright p {
 	margin-right: 10px;
 }
 
+.home-footer ul li svg:hover {
+	fill: rgba(38, 40, 36, 0.75);
+}
+
 
 
 /* ---------- ABOUT CONTAINER ---------- */
