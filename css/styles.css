@@ -181,6 +181,12 @@ footer .copyright p {
 	display: inline-block;
 }
 
+.home-footer p {
+	position: relative;
+	bottom: 7px;
+	margin-right: 10px;
+}
+
 
 
 /* ---------- ABOUT CONTAINER ---------- */
