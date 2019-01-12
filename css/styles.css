@@ -48,6 +48,8 @@ nav.home-nav ul li:focus span {
 	left: 0;
 }
 
+
+
 /* ---------- INTERIOR NAV ---------- */
 
 nav.int-nav {
@@ -109,6 +111,8 @@ nav.int-nav ul li:first-child:focus {
 	background: transparent;
 }
 
+
+
 /* ---------- FOOTER ---------- */
 
 footer {
@@ -151,6 +155,8 @@ footer .copyright p {
 	font-size: 0.5em;
 }
 
+
+
 /* ---------- HOME CONTAINER ---------- */
 
 .home-container {
@@ -174,6 +180,8 @@ footer .copyright p {
 .home-footer ul li {
 	display: inline-block;
 }
+
+
 
 /* ---------- ABOUT CONTAINER ---------- */
 
@@ -205,6 +213,8 @@ footer .copyright p {
 	margin-bottom: 20px;
 }
 
+
+
 /* ---------- BACKGROUND GRADIENT ---------- */
 
 .bg-gradient {
@@ -217,13 +227,9 @@ footer .copyright p {
 	z-index: -1;
 }
 
-/* ---------- SVG ---------- */
 
-/*svg.gradient-bg-svg {
-	position: fixed;
-	height: 100%;
-	z-index: -1;
-}*/
+
+/* ---------- SVG ---------- */
 
 svg.logo {
 	fill: #262824;
@@ -235,6 +241,8 @@ svg.icon {
 	height: 1.15em;
 }
 
+
+
 /* ---------- ANNIMATION ---------- */
 
 @keyframes icon-bounce {
@@ -242,6 +250,8 @@ svg.icon {
 		transform: translateY(-3px);
 	}
 }
+
+
 
 /* ---------- RESIZING ---------- */
 

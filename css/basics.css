@@ -26,10 +26,4 @@ p { font-size: 1em; }
 
 nav ul li { display: inline-block; }
 
-.bold {
-	font-weight: 700;
-	color: rgb(70,226,143);
-	background: linear-gradient(to right, rgb(70,226,143) 0%, rgb(129,232,232) 100%);
-	-webkit-background-clip: text;
- 	-webkit-text-fill-color: transparent;
-}
+.bold { font-weight: 700; }
