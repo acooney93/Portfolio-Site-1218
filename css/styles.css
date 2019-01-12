@@ -136,9 +136,13 @@ footer .footer-nav {
 	align-self: center;
 }
 
-footer .footer-nav ul li a {
+footer .footer-nav nav ul li a {
 	color: #FDF6F0;
 	padding: 10px;
+}
+
+footer .social {
+	margin: 10px 0;
 }
 
 footer .social ul li {
@@ -221,6 +225,43 @@ footer .copyright p {
 
 .about-content p {
 	margin-bottom: 20px;
+}
+
+.timeline {
+	justify-self: center;
+	align-self: center;
+	display: grid;
+	grid-template-rows: 1fr;
+	margin: 50px 0;
+}
+
+.timeline h1 {
+	margin-bottom: 20px;
+}
+
+.timeline .event {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: minmax(300px, auto) 1fr;
+}
+
+.timeline .event .date {
+	text-align: right;
+	border-right: 5px solid;
+	padding: 0 20px;
+	font-weight: 700;
+	font-size: 1.5em;
+	height: 100%;
+	display: grid;
+}
+
+.timeline .event .date span {
+	align-self: center;
+}
+
+.timeline .event .comment {
+	padding: 30px 20px;
+	align-self: center;
 }
 
 

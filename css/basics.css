@@ -27,3 +27,7 @@ p { font-size: 1em; }
 nav ul li { display: inline-block; }
 
 .bold { font-weight: 700; }
+
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
