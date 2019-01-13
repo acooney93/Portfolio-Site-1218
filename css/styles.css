@@ -212,6 +212,7 @@ footer .copyright p {
 	display: grid;
 	grid-template-columns: minmax(auto, 300px) 1fr;
 	width: 70%;
+	margin: 50px 0;
 }
 
 .about-content div {
