@@ -276,6 +276,20 @@ footer .copyright p {
 	grid-template-rows: minmax(150px, auto) 1fr auto;
 }
 
+.portfolio-content h1 {
+	margin: 50px 0;
+}
+
+.portfolio-nav {
+	text-align: center;
+}
+
+.portfolio-nav ul li {
+	display: inline-block;
+	margin: 0 20px;
+	cursor: pointer;
+}
+
 
 
 /* ---------- BACKGROUND GRADIENT ---------- */
