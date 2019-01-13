@@ -267,6 +267,17 @@ footer .copyright p {
 
 
 
+/* ---------- PORTFOLIO CONTAINER ---------- */
+
+.portfolio-container {
+	display: grid;
+	height: 100vh;
+	grid-template-columns: 1fr;
+	grid-template-rows: minmax(150px, auto) 1fr auto;
+}
+
+
+
 /* ---------- BACKGROUND GRADIENT ---------- */
 
 .bg-gradient {
