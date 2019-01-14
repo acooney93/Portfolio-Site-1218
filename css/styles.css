@@ -331,7 +331,7 @@ footer .copyright p {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	width: 85%;
-	margin: 0 auto;
+	margin: 0 auto 50px;
 }
 
 .portfolio-select .mix {
@@ -349,7 +349,7 @@ footer .copyright p {
 	display: grid;
 	grid-template-rows: 1fr auto;
 	text-align: center;
-	background-color: rgba(76,208,208,0.75);
+	background-color: rgba(129, 232, 232, 0.75);
 	color: #FDF6F0;
 	font-size: 1.5em;
 	transition: 0.3s;
