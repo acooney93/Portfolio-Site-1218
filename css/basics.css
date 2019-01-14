@@ -37,3 +37,6 @@ img.cover {
 	height: 100%;
 	width: 100%;
 }
+
+.tooltip-inner { background-color: #46E28F; }
+.tooltip.top .tooltip-arrow { border-top-color: #46E28F; }
