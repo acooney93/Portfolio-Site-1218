@@ -298,6 +298,7 @@ footer .copyright p {
 	padding: 2px 14px;
 	border-right: 2px solid;
 	margin-left: -4px;
+	transition: 0.3s;
 }
 
 .portfolio-nav ul li:hover {
