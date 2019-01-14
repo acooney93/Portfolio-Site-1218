@@ -392,7 +392,8 @@ footer .copyright p {
 
 .close-btn {
 	align-self: center;
-	height: 36px;
+	height: 36px !important;
+	width: 36px;
 }
 
 .modal .modal-header {
