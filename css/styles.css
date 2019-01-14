@@ -277,7 +277,7 @@ footer .copyright p {
 }
 
 .portfolio-content h1 {
-	margin: 50px 0;
+	margin: 20px 0;
 }
 
 .portfolio-nav {
@@ -327,6 +327,43 @@ footer .copyright p {
 	top: 3px;
 }
 
+.portfolio-select {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 85%;
+	margin: 0 auto;
+}
+
+.portfolio-select .mix {
+	margin: 5px;
+	border: 5px solid #FDF6F0;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+}
+
+.portfolio-select .mix .caption {
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	background-color: rgba(76,208,208,0.75);
+	color: #FFF;
+	font-size: 1.5em;
+	transition: 0.3s;
+}
+
+.portfolio-select .mix .caption p {
+	padding: 25px;
+	font-weight: 800;
+}
+
+.portfolio-select .mix:hover .caption {
+	opacity: 100;
+}
 
 
 /* ---------- BACKGROUND GRADIENT ---------- */
