@@ -290,16 +290,39 @@ footer .copyright p {
 	margin: 0 15px 20px 0;
 	border: 2px solid;
 	border-radius: 50px;
+	cursor: pointer;
 }
 
 .portfolio-nav ul li {
 	display: inline-block;
 	padding: 2px 14px;
 	border-right: 2px solid;
+	margin-left: -4px;
+}
+
+.portfolio-nav ul li:hover {
+	background-color: #262824;
+}
+
+.portfolio-nav ul li:hover a,
+.portfolio-nav ul li:hover svg {
+	color: #FDF6F0;
+	fill: #FDF6F0;
+}
+
+.portfolio-nav ul li:first-child {
+	border-radius: 50px 0 0 50px;
 }
 
 .portfolio-nav ul li:last-child {
 	border: 0;
+	border-radius: 0 50px 50px 0;;
+}
+
+.portfolio-nav ul li img {
+	height: 1.2em;
+	position: relative;
+	top: 3px;
 }
 
 
