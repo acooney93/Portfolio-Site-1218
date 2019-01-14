@@ -442,7 +442,7 @@ footer .copyright p {
 	display: inline-block;
 }
 
-.modal-body .port-icons li img {
+.modal-body .port-icons li svg {
 	height: 36px;
 }
 
