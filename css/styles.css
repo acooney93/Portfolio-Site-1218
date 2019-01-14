@@ -313,6 +313,7 @@ footer .copyright p {
 
 .portfolio-nav ul li:first-child {
 	border-radius: 50px 0 0 50px;
+	margin-left: 0;
 }
 
 .portfolio-nav ul li:last-child {
