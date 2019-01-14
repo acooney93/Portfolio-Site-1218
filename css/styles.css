@@ -329,13 +329,13 @@ footer .copyright p {
 
 .portfolio-select {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	width: 85%;
 	margin: 0 auto;
 }
 
 .portfolio-select .mix {
-	margin: 5px;
+	margin: 10px;
 	border: 5px solid #FDF6F0;
 	background-size: cover;
 	background-position: center;
