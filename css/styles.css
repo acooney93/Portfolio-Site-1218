@@ -284,10 +284,22 @@ footer .copyright p {
 	text-align: center;
 }
 
+.portfolio-nav ul {
+	display: inline-block;
+	font-size: 0.8em;
+	margin: 0 15px 20px 0;
+	border: 2px solid;
+	border-radius: 50px;
+}
+
 .portfolio-nav ul li {
 	display: inline-block;
-	margin: 0 20px;
-	cursor: pointer;
+	padding: 2px 14px;
+	border-right: 2px solid;
+}
+
+.portfolio-nav ul li:last-child {
+	border: 0;
 }
 
 
