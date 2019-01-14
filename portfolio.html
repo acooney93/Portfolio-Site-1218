@@ -57,13 +57,13 @@
             		</ul>
 				</div>
 				<div class="portfolio-select">
-					<div class="mix cat-branding" style="background-image:url(img/port/fairview01.jpg);">
+					<a id="port-fairview" class="mix cat-branding" style="background-image:url(img/port/fairview01.jpg);">
 						<div class="caption">
 							<p>Fairview Tigers Athletic Logo</p>
 							<img class="inject" src="img/icon/zoom.svg"/>
 						</div>
-					</div>
-		            <div class="mix cat-branding" style="background-image:url(img/port/fairview01.jpg);">
+					</a>
+					<div class="mix cat-branding" style="background-image:url(img/port/fairview01.jpg);">
 						<div class="caption">
 							<p>Fairview Tigers Athletic Logo</p>
 							<img class="inject" src="img/icon/zoom.svg"/>
@@ -133,6 +133,16 @@
 			</footer>
 		</div>
 
+		<div id="modal-fairview" class="modal">
+			<div class="modal-header">
+				<h1>Fairview Tigers Athletic Logo</h1>
+				<img class="close-btn" src="img/icon/close.svg">
+			</div>
+			<div class="modal-body">
+				Test Body
+			</div>
+		</div>
+
 	</main>
 
 	<!-- Javascript -->
@@ -142,8 +152,18 @@
 	<script src="js/main.js"></script>
 
 	<script>
+
 		var containerEl = document.querySelector('.portfolio-select');
 		var mixer = mixitup(containerEl);
+
+		$("#port-fairview").click(function(){
+			$("#modal-fairview").addClass("open");
+		});
+
+		$(".close-btn").click(function(){
+			$(".modal").removeClass("open");
+		});
+
 	</script>
 
 </body>

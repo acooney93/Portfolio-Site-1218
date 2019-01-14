@@ -371,6 +371,43 @@ footer .copyright p {
 }
 
 
+
+/* ---------- MODAL ---------- */
+
+.modal {
+	display: none;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #FDF6F0;
+}
+
+.modal.open {
+	display: grid;
+	grid-template-rows: auto 1fr;
+	transition: 0.3s;
+}
+
+.close-btn {
+	align-self: center;
+	height: 36px;
+}
+
+.modal .modal-header {
+	padding: 30px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr auto;
+}
+
+.modal .modal-body {
+	overflow-y: auto;
+}
+
+
+
 /* ---------- BACKGROUND GRADIENT ---------- */
 
 .bg-gradient {
