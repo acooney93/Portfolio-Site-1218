@@ -390,7 +390,7 @@ footer .copyright p {
 	transition: 0.3s;
 }
 
-.close-btn {
+.close-btn svg {
 	align-self: center;
 	height: 36px !important;
 	width: 36px;
