@@ -347,8 +347,7 @@ footer .copyright p {
 	height: 100%;
 	width: 100%;
 	display: grid;
-	align-content: center;
-	justify-content: center;
+	grid-template-rows: 1fr auto;
 	text-align: center;
 	background-color: rgba(76,208,208,0.75);
 	color: #FFF;
@@ -359,6 +358,11 @@ footer .copyright p {
 .portfolio-select .mix .caption p {
 	padding: 25px;
 	font-weight: 800;
+	align-self: center;
+}
+
+.portfolio-select .mix .caption svg {
+	margin: 0 0 15px 15px;
 }
 
 .portfolio-select .mix:hover .caption {
