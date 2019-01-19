@@ -24,6 +24,8 @@ h5 { font-size: 1.2em; }
 h6 { font-size: 1em; }
 p { font-size: 1em; }
 
+em { font-style: italic; }
+
 nav ul li { display: inline-block; }
 
 .bold { font-weight: 700; }
