@@ -69,6 +69,13 @@ nav.int-nav ul li {
 	transition: 0.3s;
 }
 
+nav.int-nav ul li svg {
+	position: relative;
+	top: 3px;
+	margin-right: 10px;
+	height: 100px;
+}
+
 nav.int-nav ul li:first-child {
 	margin: 0 10px 0 0;
 	padding: 0;
