@@ -506,12 +506,13 @@ svg.icon {
 	svg.logo { max-height: 150px; }
 	h1.title { margin: 0; }
 	nav.home-nav { margin-top: 20px; }
-	nav.int-nav ul li:first-child { margin: 0; }
+	nav.int-nav ul li:first-child { margin: 0; margin: 10px; }
 	nav.int-nav	ul li {
 		margin: 0 5px;
 		padding: 10px;
 		border: none;
 		border-radius: 0;
+		bottom: 0;
 	}
 	nav.int-nav ul li svg { display: block; }
 	nav.int-nav ul li span { display: none; }
