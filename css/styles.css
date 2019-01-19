@@ -417,13 +417,13 @@ footer .copyright p {
 	color: #262824;
 }
 
-.modal-body p {
-	width: 60%;
-	margin: 0 auto;
+.slick-dotted.slick-slider {
+    margin-bottom: 60px;
 }
 
-.modal-body p.port-caption {
-	margin-top: 70px;
+.modal-body p {
+	width: 60%;
+	margin: 20px auto;
 }
 
 .modal-body ul.port-icons {
