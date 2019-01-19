@@ -494,25 +494,27 @@ svg.icon {
 /* ---------- RESIZING ---------- */
 
 @media (max-width: 1024px) {
-	
-	nav.int-nav {
-		justify-self: left;
-		width: auto;
-		padding: 25px;
-	}
-	nav.int-nav ul li:first-child { margin: 0 15px 0 0; }
-	nav.int-nav ul li { margin: 0 15px; }
-	.about-content { width: auto; }
-	.about-content div { margin: 20px 50px; }
-	footer { padding: 25px; }
+
+	nav.home-nav ul li { margin: 0 10px; }
 
 }
 
 @media (max-width: 768px) {
 
-	svg.gradient-bg-svg { left: -400px; }
-	nav.int-nav ul li:first-child { margin: 0 5px 0 0; }
-	nav.int-nav ul li { margin: 0 5px; }
-	.about-content div { margin: 20px; }
 }
 
+@media (max-width: 667px) {
+
+	svg.logo { max-height: 150px; }
+	h1.title { margin: 0; }
+	nav.home-nav { margin-top: 20px; }
+	nav.home-nav ul li svg { top: 0; }
+	nav.home-nav ul li span { left: 0; }
+
+}
+
+@media (max-width: 375px) {
+
+	nav.home-nav ul li { text-align: center; margin: 15px; }
+
+}
