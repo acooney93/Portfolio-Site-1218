@@ -61,8 +61,8 @@ nav.int-nav {
 
 nav.int-nav ul li {
 	position: relative;
-	margin: 0 25px;
-	padding: 5px 20px;
+	margin: 0 10px;
+	padding: 5px 10px;
 	bottom: 40px;
 	border: 2px solid;
 	border-radius: 50px;
@@ -70,23 +70,11 @@ nav.int-nav ul li {
 }
 
 nav.int-nav ul li:first-child {
-	margin: 0 25px 0 0;
+	margin: 0 10px 0 0;
 	padding: 0;
 	bottom: 0;
 	border: 0;
 	border-radius: 0;
-}
-
-nav.int-nav ul li svg {
-	position: relative;
-	top: 3px;
-	margin-right: 10px;
-	height: 100px;
-}
-
-nav.int-nav ul li span {
-	position: relative;
-	bottom: 3px;
 }
 
 nav.int-nav ul li:hover,
@@ -96,20 +84,9 @@ nav.int-nav ul li:focus {
 	background: #262824;
 }
 
-nav.int-nav ul li:hover span,
-nav.int-nav ul li:focus span {
-	color: #FDF6F0;
-}
-
-nav.int-nav ul li:hover svg,
-nav.int-nav ul li:focus svg {
-	fill: #FDF6F0;
-}
-
 nav.int-nav ul li:first-child:hover,
 nav.int-nav ul li:first-child:focus {
 	color: #262824;
-	fill: #262824;
 	border: none;
 	background: transparent;
 }
