@@ -519,7 +519,7 @@ svg.icon {
 	}
 	.about-content { margin: 0; grid-template-columns: 1fr; }
 	footer { grid-template-columns: 1fr; }
-	footer a { display: none; }
+	footer a.footer-logo { display: none; }
 
 }
 
