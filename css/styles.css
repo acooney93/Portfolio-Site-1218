@@ -73,10 +73,7 @@ nav.int-nav ul li {
 }
 
 nav.int-nav ul li svg {
-	position: relative;
-	top: 3px;
-	margin-right: 10px;
-	height: 100px;
+	display: none;
 }
 
 nav.int-nav ul li:first-child {
@@ -505,9 +502,8 @@ svg.icon {
 	svg.logo { max-height: 150px; }
 	h1.title { margin: 0; }
 	nav.home-nav { margin-top: 20px; }
-	nav.home-nav ul li svg { top: 0; }
-	nav.home-nav ul li span { left: 0; }
-	nav.int-nav ul { padding: 0 5%; }
+	nav.home-nav ul li svg { display: block; }
+	nav.home-nav ul li span { display: none; }
 	nav.int-nav ul li:first-child { margin: 0; }
 	nav.int-nav	ul li {
 		margin: 0 5px;
