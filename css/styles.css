@@ -72,6 +72,10 @@ nav.int-nav ul li {
 	transition: 0.3s;
 }
 
+nav.int-nav ul li svg {
+	height: 100px;
+}
+
 nav.int-nav ul li .svg-nav svg {
 	display: none;
 }
@@ -505,10 +509,8 @@ svg.icon {
 	nav.int-nav ul li:first-child { margin: 0; }
 	nav.int-nav	ul li {
 		margin: 0 5px;
-		padding: 0;
-		padding-right: 5px;
+		padding: 10px;
 		border: none;
-		border-right: 1px solid;
 		border-radius: 0;
 	}
 	nav.int-nav ul li svg { display: block; }
