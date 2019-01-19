@@ -3,7 +3,10 @@ h1.title {
 	text-align: center;
 }
 
-nav.home-nav { margin-top: 60px; }
+nav.home-nav {
+	margin-top: 60px;
+	text-align: center;
+}
 
 nav.home-nav ul li {
 	line-height: 1.333;
