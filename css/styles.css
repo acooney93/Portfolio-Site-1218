@@ -91,6 +91,11 @@ nav.int-nav ul li:focus {
 	background: #262824;
 }
 
+nav.int-nav ul li:hover a,
+nav.int-nav ul li:focus a {
+	color: #FDF6F0;
+}
+
 nav.int-nav ul li:first-child:hover,
 nav.int-nav ul li:first-child:focus {
 	color: #262824;
