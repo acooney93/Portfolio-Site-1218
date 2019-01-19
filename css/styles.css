@@ -72,7 +72,7 @@ nav.int-nav ul li {
 	transition: 0.3s;
 }
 
-nav.int-nav ul li svg {
+nav.int-nav ul li .svg-nav svg {
 	display: none;
 }
 
