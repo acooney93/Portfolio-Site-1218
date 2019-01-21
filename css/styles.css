@@ -526,7 +526,7 @@ svg.icon {
 	nav.int-nav ul li span { display: none; }
 	.about-content { margin: 0; grid-template-columns: 1fr; }
 	.portfolio-nav ul { border: none; border-radius: 0; margin: 0; }
-	.portfolio-nav ul li, nav.portfolio-nav ul li:first-child, nav.portfolio-nav ul li:last-child {
+	.portfolio-nav ul li, .portfolio-nav ul li:first-child, .portfolio-nav ul li:last-child {
 		margin: 5px;
 		border: 2px solid;
 		border-radius: 50px;
