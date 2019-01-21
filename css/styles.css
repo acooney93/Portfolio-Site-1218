@@ -527,6 +527,7 @@ svg.icon {
 		border: 2px solid;
 		border-radius: 50px;
 	}
+	nav.portfolio-nav ul:last-child { display: none; }
 	.portfolio-select { width: 100%; grid-template-columns: repeat(2, 1fr); }
 	.portfolio-select .mix { height: 200px; }
 	footer { grid-template-columns: 1fr; }
