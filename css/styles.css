@@ -74,9 +74,6 @@ nav.int-nav ul li {
 
 nav.int-nav ul li svg {
 	height: 100px;
-}
-
-nav.int-nav ul li .svg-nav svg {
 	display: none;
 }
 
@@ -86,6 +83,10 @@ nav.int-nav ul li:first-child {
 	bottom: 0;
 	border: 0;
 	border-radius: 0;
+}
+
+nav.int-nav ul li:first-child svg {
+	display: block;
 }
 
 nav.int-nav ul li:hover,
