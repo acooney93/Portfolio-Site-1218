@@ -494,6 +494,7 @@ svg.icon {
 	.about-content { width: 90%; }
 	.portfolio-select { width: 100%; grid-template-columns: repeat(3, 1fr); }
 	.portfolio-select .mix { height: 200px; }
+	.slider img, .modal-body img { max-height: 400px; }
 	footer { padding: 25px 5%; }
 
 }
@@ -502,6 +503,9 @@ svg.icon {
 
 	.about-content { grid-template-columns: minmax(auto, 250px) 1fr; }
 	.portfolio-select .mix { height: 160px; }
+	.modal .modal-header { padding: 10px 30px; }
+	.modal .modal-body { padding: 0; }
+	.slider img, .modal-body img { max-height: 250px; }
 
 }
 
