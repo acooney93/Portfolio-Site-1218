@@ -525,13 +525,13 @@ svg.icon {
 	nav.int-nav ul li svg { display: block; }
 	nav.int-nav ul li span { display: none; }
 	.about-content { margin: 0; grid-template-columns: 1fr; }
-	nav.portfolio-nav ul { border: none; border-radius: 0; margin: 0; }
-	nav.portfolio-nav ul li, nav.portfolio-nav ul li:first-child, nav.portfolio-nav ul li:last-child {
+	.portfolio-nav ul { border: none; border-radius: 0; margin: 0; }
+	.portfolio-nav ul li, nav.portfolio-nav ul li:first-child, nav.portfolio-nav ul li:last-child {
 		margin: 5px;
 		border: 2px solid;
 		border-radius: 50px;
 	}
-	nav.portfolio-nav ul:last-child { display: none; }
+	.portfolio-nav ul:last-child { display: none; }
 	.portfolio-select { width: 100%; grid-template-columns: repeat(2, 1fr); }
 	.portfolio-select .mix { height: 200px; }
 	footer { grid-template-columns: 1fr; }
